@@ -4,7 +4,7 @@ def main():
     viewer = PointCloudViewer()
     
     try:
-        cloud = viewer.load_cloud("point_cloud(1).ply")
+        cloud = viewer.load_cloud("bunny.ply")
         
         info = viewer.get_cloud_info(cloud)
         print(f"\nPoint Cloud Info:")
